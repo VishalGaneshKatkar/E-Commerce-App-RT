@@ -14,7 +14,7 @@ const Navbar = () => {
         >
             <span className="logo">REDUX STORE</span>
             <div>
-                <Link className="navLink" to="//E-Commerce-App-RT/">
+                <Link className="navLink" to="/E-Commerce-App-RT">
                     Home
                 </Link>
                 <Link className="navLink" to="/cart">
