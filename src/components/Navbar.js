@@ -2,8 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
+
 const Navbar = () => {
-    const items = useSelector((state) => state.cart);
+    const items = useSelector((state) => state.cart.cartItems);
+    
     return (
         <div
             style={{
@@ -12,15 +14,15 @@ const Navbar = () => {
                 justifyContent: 'space-between',
             }}
         >
-            <span className="logo">REDUX STORE</span>
-            <div>
+            <Link to='/' className="logo"><h2>REDUX TOOLKIT STORE</h2></Link>
+            <div className='links'>
                 <Link className="navLink" to="/">
                     Home
                 </Link>
                 <Link className="navLink" to="/cart">
                     Cart
                 </Link>
-                <span className="cartCount">Cart items: {items.length}</span>
+                <Link className="cartcount" to="/cart">🛒<strong>:</strong> <strong>{items.length}</strong></Link>
             </div>
         </div>
     );

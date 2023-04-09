@@ -61,3 +61,40 @@ img {
     padding: 14px;
     border-radius: 5px;
 }
+
+.logo:hover{
+    color: #513282;
+    cursor: pointer;
+}
+
+.logo,.cartcount{
+    text-decoration: none;
+}
+
+.navLink{
+    font-weight: bold;
+    color: #513282;
+}
+
+button{
+    border: none;
+}
+
+
+.btnpm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carttt{
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    margin: 0 14px;
+}
+
+.card, .cartCard{
+    border: 1px solid #513282;
+}

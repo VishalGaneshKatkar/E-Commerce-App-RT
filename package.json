@@ -1,6 +1,5 @@
 {
   "name": "ecommerce",
-  "homepage": "https://VishalGaneshKatkar.github.io/E-Commerce-App-RT",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,11 +13,11 @@
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
