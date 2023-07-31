@@ -98,3 +98,21 @@ button{
 .card, .cartCard{
     border: 1px solid #513282;
 }
+
+.divv{
+    border: 1px solid #513282;
+    border-radius: 5px;
+    margin-top: 15px;
+    position: absolute;
+    /* margin-left: 64rem; */
+    padding: 5px 15px 5px 15px ;
+    
+}
+.dbtn{
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+
+.empty{
+    /* margin: 100px 0 100px 0; */
+}

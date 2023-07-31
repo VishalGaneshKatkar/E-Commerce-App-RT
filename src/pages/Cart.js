@@ -79,15 +79,20 @@ const Cart = () => {
                         return Clear();
                     }}>ClearAll</button>
 
-                    <div>
-                    <h3 style={{ color: '#513282'}}>TotalPrice : ₹{cart.cartTotalAmount} </h3>
+                    <div className='divv'>
+                    <h3 style={{ color: '#513282'}}>TotalPrice : ₹{Math.floor(cart.cartTotalAmount)} </h3>
                     <h3 style={{ color: '#513282' , marginTop:'-20px' }}>TotalQuantity : {cart.cartTotalQuantity} </h3>
+                    <button className='btn dbtn'>Proceed To Pay</button>
                     </div>
 
-                </div>
-            </div>
+                    
 
+                </div>
+                
+            </div>
+            {/* <div className='empty'></div> */}
         </div>
+        
     );
 };
 

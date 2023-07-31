@@ -37,7 +37,7 @@ const Products = () => {
                 <div className="card">
                     <img src={product.image} alt="" />
                     <h4>{product.title}</h4>
-                    <h5>{product.price}</h5>
+                    <h5>{Math.floor(product.price)}</h5>
                     <button onClick={() => handleAdd(product)} className="btn">
                         Add to cart
                     </button>
